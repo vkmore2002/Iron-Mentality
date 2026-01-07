@@ -1,10 +1,10 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home.jsx";
-import About from "./Pages/About.jsx";
-import Contact from "./Pages/Contact.jsx";
-import Exercise from "./Pages/Exercise.jsx";
-import Workouts from "./Pages/Workouts.jsx";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import Contact from "./pages/Contact.jsx";
+import Exercise from "./pages/Exercise.jsx";
+import Workouts from "./pages/Workouts.jsx";
 import Navbar from "./Components/Navbar.jsx";
 // import Footer from "./Components/Footer.jsx";
 
