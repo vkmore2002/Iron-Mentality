@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { fetchMuscles } from "../api/exercideDbApi.js";
+import { fetchMuscles } from "../api/exerciseDbApi.js";
 
 const TestApi = () => {
   useEffect(() => {
