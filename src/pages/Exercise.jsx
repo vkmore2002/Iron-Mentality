@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Cards from "../Components/Cards";
 import { fetchExercises } from "../api/exerciseDbApi";
+import Footer from "../Components/Footer.jsx";
 
 const Exercise = () => {
   const [exercises, setExercises] = useState([]);
@@ -91,6 +92,7 @@ const Exercise = () => {
           <Cards exercises={filteredExercises} />
         )}
       </div>
+      <Footer />
     </section>
   );
 };
